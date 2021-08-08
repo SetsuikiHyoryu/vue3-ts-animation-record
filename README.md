@@ -45,3 +45,8 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
   - `src\components\Article.vue`
 - 學習 script setup 用
 - 當前 [script setup document](https://github.com/vuejs/rfcs/blob/master/active-rfcs/0040-script-setup.md)
+
+### <http://localhost:1848/studyts>
+
+- `src\views\StudyTypeScript.vue`
+- 學習 TypeScript 用

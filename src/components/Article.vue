@@ -1,7 +1,11 @@
 <script lang="ts" setup>
 import { defineProps, defineEmits, useAttrs, useSlots, ref } from "vue";
 
-type Article = { title: string; author: string; body: string };
+interface Article {
+  title: string;
+  author: string;
+  body: string;
+}
 
 /** State */
 const isWhite = ref(true);
