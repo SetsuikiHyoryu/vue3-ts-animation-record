@@ -36,17 +36,17 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### <http://localhost:1848/study>
   
-- `./src/views/Study.vue`
+- `./src/views/study/Study.vue`
 - 學習用
 
 ### <http://localhost:1848/studysetup>
 
-- `./src/views/StudySetup.vue`
+- `./src/views/study/StudySetup.vue`
   - `src\components\Article.vue`
 - 學習 script setup 用
 - 當前 [script setup document](https://github.com/vuejs/rfcs/blob/master/active-rfcs/0040-script-setup.md)
 
 ### <http://localhost:1848/studyts>
 
-- `src\views\StudyTypeScript.vue`
+- `src\views\study\StudyTypeScript.vue`
 - 學習 TypeScript 用

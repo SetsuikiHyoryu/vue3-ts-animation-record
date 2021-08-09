@@ -14,7 +14,9 @@ const newNumber = sum(1, 3, 5);
 
 // -----------------------------------------
 
-/** 元組（Tuple） */
+/** 元組（Tuple）
+ * 明確元素數量及每個元素類型的數組
+ */
 const tuple: [number, string] = [26, "hyoryu"];
 const [age, userName] = tuple;
 

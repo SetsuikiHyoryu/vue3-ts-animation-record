@@ -11,19 +11,31 @@ const routes: Array<RouteRecordRaw> = [
     path: "/study",
     name: "Study",
     component: () =>
-      import(/** webpackChunkName: "study" */ "../views/Study.vue"),
+      import(/** webpackChunkName: "study" */ "../views/study/Study.vue"),
   },
   {
     path: "/studysetup",
     name: "StudySetup",
     component: () =>
-      import(/** webpackChunkName: "studysetup" */ "../views/StudySetup.vue"),
+      import(
+        /** webpackChunkName: "studysetup" */ "../views/study/StudySetup.vue"
+      ),
   },
   {
     path: "/studyts",
     name: "StudyTypeScript",
     component: () =>
-      import(/** webpackChunkName: "studyts" */ "../views/StudyTypeScript.vue"),
+      import(
+        /** webpackChunkName: "studyts" */ "../views/study/StudyTypeScript.vue"
+      ),
+  },
+  {
+    path: "/studyconnect",
+    name: "StudyFrontConnectBack",
+    component: () =>
+      import(
+        /** webpackChunkName: "studyconnect" */ "../views/study/StudyFrontConnectBack.vue"
+      ),
   },
 
   // NOTE: 懶加載
